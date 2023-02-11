@@ -1,7 +1,9 @@
 # ODT-text-inserter
+
 This is a simple Python module to insert text into input fields in an odt-document without the overhead of using OpenOffice / LibreOffice / Unified Network Objects (UNO) ...
 
-#Usage
+
+# Usage
 
 ```python
 from odt_input_fields_mod import odt_input_fields_mod as odt_mod
