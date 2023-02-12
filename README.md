@@ -5,7 +5,7 @@ This is a simple Python module to insert text into input fields in an odt-docume
 
 # Usage
 
-This module can change the content of input fields in your odt-document. It is important to use unique field descriptors! (They must be entered in the ''Reference'' text box when creating the input field).
+This module can change the content of input fields in your odt-document. It is important to use unique field descriptors! (They must be entered in the *'Reference'* text box when creating the input field).
 I personally haven't come across anything to the contrary, but it should be mentioned here that your odt-files have to be UTF-8 encoded for this module to work. Otherwise you would have to add an other encoding function for the strings. You can easily check this in the "manifest.xml" file (you schould see something like <?xml version="1.0" encoding="UTF-8"?>).
 
 
