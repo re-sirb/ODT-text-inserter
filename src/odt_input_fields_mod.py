@@ -122,7 +122,7 @@ class odt_input_fields_mod:
 		#reverse list and start from big to small to preserve the location of the other indices
 		insert_index_lst.sort(reverse=True)
 		
-		print(insert_index_lst)
+		#print(insert_index_lst)
 		
 		for n in insert_index_lst:
 			self.content_file = self.__insert_b_into_a(self.content_file, b'> </text:text-input>', n, 2)
